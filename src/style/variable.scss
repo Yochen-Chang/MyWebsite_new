@@ -1,11 +1,24 @@
-// Color
-:root{
-    --color-primary-1 : #01497c;
-    --color-primary-2 : #124559;
-    --color-primary-3 : #598392;
+// color
+$color-main-bg: rgb(245, 245, 245);
+$color-nav: rgba(255, 255, 255, 0.8);
+$color-line: black;
+$color-anchor-active: #01497c;
+$color-anchor-hover: #89c2d9;
+$color-bannerbox: #012a4a;
+$color-card: white;
+$color-shadow: rgba(125, 125, 125, 0.8);
 
-    --color-white: white;
-    --color-black: black;
-    --color-gary: whitesmoke;
-    --color-gary-shadow: rgba(125, 125, 125, 0.8);
-}
+$button-color: #598392;
+$button-color-hover: #124559;
+$font-color-light: white;
+$font-color-dark: black;
+
+// size
+$pf-card-width: 25vw;
+$pf-card-width-s: 250px;
+$pf-card-height: 450px;
+$width-container: 70vw;
+$width-container-m: 85vw;
+
+// animation
+$normal-transition: all 0.5s ease;

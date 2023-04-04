@@ -1,18 +1,21 @@
-import * as React from "react"
-import Layout from "../components/layout"
+import * as React from "react";
+import Layout from "../components/layout";
+import Banner from "../components/banner";
+import Intro from "../components/intro";
+import Portfolio from "../components/portfolio";
 
 const IndexPage = () => {
   return (
     <>
       <Layout pageClass="home">
-        <h1>this is home page</h1>
-        <div className="banner-area">
-        </div>
+        <Banner></Banner>
+        <Intro></Intro>
+        <Portfolio></Portfolio>
       </Layout>
     </>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
 
-export const Head = () => <title>Yochen | 🕺🏾會搖擺的工程師👨🏻‍💻</title>
+export const Head = () => <title>Yochen | 🕺🏾會搖擺的網頁工程師👨🏻‍💻</title>;

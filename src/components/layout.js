@@ -3,6 +3,7 @@ import * as React from 'react'
 
 // Component
 import Header from "./header"
+import ContactMe from "./contact-me"
 
 // Style
 import "../style/initial.scss"
@@ -15,10 +16,12 @@ const Layout = ({ pageClass, children }) => {
             <header>
                 <Header />
             </header>
-            <main>
+            <main className='desktopFont'>
                 {children}
-            </main>``
-            <footer></footer>
+            </main>
+            <footer>
+            <ContactMe></ContactMe>
+            </footer>
         </div>
     )
 }
