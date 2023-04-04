@@ -1,0 +1,12 @@
+.only-show{
+    display: none;
+}
+.home .show-at-home{
+    display: inherit;
+}
+
+main{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--color-primary-3);
+}
